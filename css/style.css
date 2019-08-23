@@ -1,0 +1,229 @@
+:root {
+  --orange: #ff934f;
+  --black: #0c090d;
+  --white: #f3f9d2;
+  --serif: 'Martel';
+  --sansserif: 'Nunito';
+  --handwriting: 'Cookie';
+  --psize: 19px;
+  --hsize: 30px;
+}
+.logo {
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+.headpara {
+  font-size: 25px;
+  color: gray;
+  margin-top: 5px;
+  font-family: var(--handwriting);
+}
+.icon-ret {
+  font-size: 30px;
+  display: block;
+  float: left;
+  color: gray;
+  margin: 25px 0px 0px 15px;
+  padding: 5px;
+  letter-spacing: 5px;
+}
+.backgroundimg {
+  background-image: url('../img/beef.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.imgover {
+  margin: auto;
+  width: 80%;
+  margin-top: 130px;
+}
+.imgover h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: var(--serif);
+}
+.imgover p {
+  font-size: var(--psize);
+  color: white;
+  font-family: var(--sanserif);
+}
+.imgover a {
+  display: block;
+  font-size: 30px;
+  font-family: var(--handwriting);
+  color: var(--black);
+  background-color: white;
+  padding: 16px 28px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 216px;
+}
+.menu-cat {
+  font-size: 40px;
+  font-family: var(--handwriting);
+  padding: 12px 14px;
+  text-align: center;
+  color: black;
+  border-right: 10px solid whitesmoke;
+}
+.menu-cat:hover {
+  font-style: italic;
+}
+/* Menu */
+.menu-item {
+  padding: 10px;
+}
+.menu-item-img {
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+}
+.menu-item-name {
+  text-align: center;
+  font-size: 30px;
+  font-family: var(--sansserif);
+  text-transform: uppercase;
+}
+.curr {
+  font-family: var(--serif);
+  font-size: 22px;
+}
+.menu-item-price {
+  font-size: 20px;
+  font-family: var(--sansserif);
+}
+.foam {
+  padding: 40px;
+  width: 100%;
+}
+label {
+  font-size: 35px;
+  font-family: var(--handwriting);
+}
+.text-type-foam {
+  width: 100%;
+  padding: 20px;
+}
+.buuton-gender {
+  display: block;
+}
+
+label {
+  display: block;
+  padding: 15px;
+}
+.gender {
+  margin-top: 100px;
+}
+.gender-heading {
+  font-size: 40px;
+  font-family: var(--handwriting);
+  padding: 12px 14px;
+  color: black;
+  border-right: 10px solid whitesmoke;
+}
+.button-gender {
+  display: block;
+  font-size: 30px;
+  padding: 10px;
+  font-family: var(--sansserif);
+  background-color: transparent;
+  border: 5px solid whitesmoke;
+  margin: 10px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.submit {
+  width: 49%;
+  background-color: transparent;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+  background-color: rgb(180, 37, 37);
+  font-family: 'livvic';
+  font-weight: 100;
+}
+.reset {
+  width: 49%;
+  background-color: transparent;
+  padding: 30px;
+  font-size: 30px;
+  border: none;
+  background-color: greenyellow;
+  font-family: 'livvic';
+  font-weight: 100;
+}
+.logo-footer {
+  width: 50px;
+  display: block;
+  margin-top: 0px;
+  float: left;
+}
+/* .footpara {
+  font-size: 25px;
+  color: gray;
+  font-family: var(--handwriting);
+  display: inline;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+} */
+i {
+  font-size: 27px;
+  display: block;
+  float: right;
+  padding: 0px 0px 0px 30px;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin: 0;
+    margin-left: 130px;
+  }
+  .headpara {
+    font-size: 22px;
+    color: gray;
+    margin: 5px 0px 0px 15px;
+    font-family: var(--handwriting);
+  }
+  .imgover h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: var(--serif);
+  }
+  .imgover p {
+    font-size: var(--psize);
+    color: white;
+    font-family: var(--sanserif);
+  }
+  .imgover a {
+    display: none;
+  }
+  .footerr img {
+    
+  }
+}
+/* .menu-cats {
+  font-size: 40px;
+  font-family: var(--handwriting);
+  padding: 12px 14px;
+  text-align: center;
+  color: black;
+  border-right: 10px solid whitesmoke;
+  display: block;
+} */
+/* .big-heading {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  font-family: var(--sansserif);
+  text-align: center;
+} */

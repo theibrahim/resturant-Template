@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="KickStart Description" />
+    <meta name="keywords" content="Kickstart Boilerplate" />
+    <meta name="author" content="Your Name" />
+    <!-- Css Links -->
+    <!-- Normalize -->
+
+    <!-- Framework -->
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    />
+    <!-- Google Fonts - Paste The Fonts Here -->
+    <link href="https://fonts.googleapis.com/css?family=Cookie|Nunito&display=swap" rel="stylesheet">
+
+    <!-- FavIcon -->
+    <link rel="icon" href="favicon.png" type="image/png" sizes="any" />
+    <!-- Scripts Here If You want in Head Section -->
+  </head>
+  <body>
+    <div class="columns">
+      <div class="column">
+        <span class="icon-ret fas fa-bars"></span>
+        <span class="icon-ret fab fa-facebook-f"></span>
+        <span class="icon-ret fab fa-twitter"></span>
+        <span class="icon-ret fab fa-instagram"></span>
+      </div>
+      <div class="column is-one-fifth ">
+        <img src="img/logo.png" alt="" class="logo" />
+      </div>
+      <div class="column is-">
+        <p class="headpara">
+          <sub>
+            The only resturant you want to visit in the world , the one stop
+            shop for the famous cuisines and in affordable price.
+          </sub>
+        </p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <div class="backgroundimg">
+          <div class="columns">
+            <div class="column"></div>
+            <div class="column">
+              <div class="imgover">
+                <h1>Resturante Sandies</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Repellendus in deleniti veniam ipsam facilis accusamus neque
+                  illo distinctio consequatur sapiente ratione, ab dolores vero
+                  accusantium, sint omnis aut corrupti suscipit.
+                </p>
+                <a href="">Book a table Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-one-quarter">
+        <div class="menu-cat" onclick="item(fastFood);">Fast Food</div>
+        <div class="menu-cat" onclick="item(barbq);">BarB-Q</div>
+        <div class="menu-cat" onclick="item(italian);">Italian</div>
+        <div class="menu-cat" onclick="item(icecream);">Ice Cream</div>
+        <div class="menu-cat" onclick="item(juices);">Juices</div>
+        <div class="menu-cat" onclick="item(salads);">Salads</div>
+      </div>
+      <div class="column">
+        <div class="menu-item">
+          <div class="columns">
+            <div class="column"></div>
+            <div class="column is-two-thirds">
+              <h3 class="menu-item-name "><b>ITEM NAME</b></h3>
+            </div>
+            <div class="column">
+              <h4 class="menu-item-price ">
+                <b class="curr">PRICE</b>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item" style="margin-top: 50px;">
+          <div class="columns">
+            <div class="column">
+              <img src="./img/barbq.jpg" alt="" class="menu-item-img two" />
+            </div>
+            <div class="column is-two-thirds">
+              <h3 class="menu-item-name two">Chicken Tikka</h3>
+            </div>
+            <div class="column">
+              <h4 class="menu-item-price">
+                <span class="curr two">PKR.</span>
+                <span class="price-two">500</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="columns">
+            <div class="column">
+              <img src="./img/salad.jpg" alt="" class="menu-item-img three" />
+            </div>
+            <div class="column is-two-thirds">
+              <h3 class="menu-item-name three">Tanndoori Boti</h3>
+            </div>
+            <div class="column">
+              <h4 class="menu-item-price-three">
+                <span class="curr three">PKR.</span>
+                <span class="price-three">240</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="columns">
+            <div class="column">
+              <img src="./img/shawarma.jpg" alt="" class="menu-item-img four" />
+            </div>
+            <div class="column is-two-thirds">
+              <h3 class="menu-item-name four">Beef Masala</h3>
+            </div>
+            <div class="column">
+              <h4 class="menu-item-price four">
+                <span class="curr four">PKR.</span>
+                <span class="price-four">2500</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="columns">
+            <div class="column">
+              <img src="./img/sweet.jpg" alt="" class="menu-item-img fifth" />
+            </div>
+            <div class="column is-two-thirds">
+              <h3 class="menu-item-name fifth">Chicken Karahi</h3>
+            </div>
+            <div class="column">
+              <h4 class="menu-item-price fifth">
+                <span class="curr fifth">PKR.</span>
+                <span class="price-fifth">5000</span>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="booking">
+      <div class="columns">
+        <div class="column">
+          <!-- <h1 class="big-heading">
+            BOOK A TABLE NOW ONLINE
+          </h1> -->
+          <div class="foam">
+            <form>
+              <label
+                >Name : <input type="text" class="text-type-foam is-large"
+              /></label>
+              <label
+                >email : <input type="email" class="text-type-foam is-large"
+              /></label>
+              <label
+                >date : <input type="date" class="text-type-foam is-large"
+              /></label>
+            </form>
+          </div>
+        </div>
+        <div class="column">
+          <div class="gender">
+            <h2 class="gender-heading">GENDER</h2>
+            <button class="button-gender">male</button>
+            <button class="button-gender">female</button>
+            <button class="button-gender">none</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <input type="submit" class="submit" />
+        <input type="reset" class="reset" />
+      </div>
+    </div>
+   
+          <!-- <p class="footpara">
+            <sub>
+              The only resturant you want to visit in the world , the one stop
+              shop for the famous cuisines and in affordable price. The only
+              resturant you want to visit in the world , the one stop shop for
+              the famous cuisines and in affordable price. The only resturant
+              you want to visit in the world , the one stop shop for the famous
+              cuisines and in affordable price.
+            </sub>
+          </p> -->
+          <!-- <i class="fab fa-whatsapp"></i>
+          <i class="fab fa-google"></i> -->
+        
+    <!-- <div class="column is-one-quarter">
+        <a href="www.google.com" class="menu-cats">google</a>
+        <a href="www.youtube.com" class="menu-cats">youtube</a>
+        <a href="www.lynda.com" class="menu-cats">lynda</a>
+        <a href="www.daraz.com" class="menu-cats">daraz</a>
+        <a href="www.amazon.com" class="menu-cats">amazon</a>
+      </div> -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
